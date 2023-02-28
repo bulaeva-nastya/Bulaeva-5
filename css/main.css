@@ -1,0 +1,800 @@
+/* подключение шрифта*/
+@font-face {
+  font-family: 'Zen Old Mincho';
+  src: url('../fonts/ZenOldMincho-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*уберем все лишние отступы */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  min-width: 720px;
+}
+
+/*установим фоновое изображение шапки*/
+header {
+  background: url('../img/Group\ 8.png');
+  background-size: cover;
+  height: 1010px;
+}
+
+/*настройка фона и позиционирования элементов меню*/
+
+
+/*медиа запрос на оторбражение меню*/
+@media (min-width: 1280px) and (max-width: 1920px) {
+
+  /*медиа запрос на оторбражение меню*/
+  footer .container ul li {
+    font-size: 24px;
+  }
+
+  .form-block {
+    display: flex;
+  }
+
+  /*текст*/
+  main .about .content .title {
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    margin-bottom: 37px;
+  }
+
+  /*текст*/
+  main .about .content .text {
+    width: 1021px;
+  }
+
+  /*текст*/
+  main .production .production-block .info {
+    width: 189.53px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .gamburger {
+    display: none;
+  }
+
+  header .content h1 {
+    width: 807px;
+    height: 246px;
+  }
+
+  footer .container ul {
+    margin-right: 100px;
+  }
+
+  /*ФОТО*/
+  header .content .image {
+    width: 657px;
+    height: 442px;
+  }
+
+  /*ФОРМА*/
+  .form {
+    width: 852px;
+    height: 809px;
+  }
+
+  /*ПОЛЕ ВВОДА*/
+  .input {
+    width: 685.44px;
+    height: 68.63px;
+  }
+
+  main .form-block .form button {
+    width: 602.66px;
+    height: 103.35px;
+  }
+
+  footer .container ul li {
+    height: 45px;
+  }
+
+  /*ФОТО*/
+  footer .container .social-links {
+    display: flex;
+  }
+
+  .form-block-phone {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1280px) {
+  footer .container ul li {
+    font-size: 24px;
+  }
+
+  footer .container .social-links {
+    display: flex;
+  }
+
+  .form-block {
+    display: flex;
+  }
+
+  main .about .content .title {
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    margin-bottom: 37px;
+  }
+
+  main .about .content .text {
+    width: auto;
+  }
+
+  /*ФОТО*/
+  main .production .production-block .image-main-two {
+    display: none;
+  }
+
+  /*ФОТО*/
+  main .production .production-block .image-main-one {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  main .production .production-block .info {
+    width: 189.53px;
+  }
+
+  .gamburger {
+    display: block;
+  }
+
+
+
+  /*текст*/
+  header .content h1 {
+    width: 593.4px;
+    height: 322px;
+  }
+
+  /*ФОТО*/
+  header .content .image {
+    width: 438.41px;
+    height: 442px;
+  }
+
+  .form {
+    width: 586.89px;
+    height: 809px;
+    margin-right: 57px;
+  }
+
+  .input {
+    width: 472.16px;
+    margin: 30px;
+    height: 68.63px;
+  }
+
+  main .form-block .form button {
+    width: 423.39px;
+    height: 103px;
+  }
+
+  footer .container ul {
+    margin-right: 50px;
+  }
+
+  footer .container ul li {
+    height: 40px;
+  }
+
+  .form-block-phone {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1000px) {
+
+  footer .container .social-links {
+    display: none;
+  }
+
+  main .production .production-block {
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .form-block-phone .form-bg {
+    height: 1050px;
+    background-image: url('../img/Rectangle\ 249\ \(2\).png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  main .form-block-phone {
+
+    align-items: center;
+  }
+
+  /*текст*/
+  main .form-block-phone .text {
+    width: 500px;
+    font-size: 40px;
+    margin-left: 79px;
+    height: 400px;
+    font-family: 'Zen Old Mincho';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 123px;
+  }
+
+  /*форма*/
+  main .form-block-phone .form {
+    margin: 55px;
+    background: #826254;
+    border-radius: 77px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /*заголовок 3 уровня*/
+  main .form-block-phone .form h3 {
+    font-size: 48px;
+    font-family: 'Zen Old Mincho';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 41px;
+    margin-bottom: 71px;
+  }
+
+  /*поле ввода*/
+  main .form-block-phone .form .input {
+
+    background: #D9D9D9;
+    border-radius: 89px;
+    margin-bottom: 41px;
+  }
+
+  /*текст поля ввода*/
+  main .form-block-phone .form .input .placeholder {
+    margin-left: 23px;
+    font-size: 38px;
+    font-family: 'Zen Old Mincho';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    color: #767676;
+  }
+
+  /*кнопка*/
+  main .form-block-phone .form button {
+    margin-top: 74px;
+    margin-bottom: 100px;
+
+    background: #72534A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  /*текст кнопки*/
+  main .form-block-phone .form button p {
+    font-size: 48px;
+    font-family: 'Zen Old Mincho';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+
+
+  .form-block-phone {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .about .content .title .line {
+    margin-bottom: 72px;
+  }
+
+  .form-block {
+    display: none;
+  }
+
+  main .about .content .title {
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    flex-direction: column;
+    margin-bottom: 37px;
+  }
+
+  main .about .content .text {
+    width: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  header .content .image {
+    display: none;
+  }
+
+  .gamburger {
+    display: block;
+  }
+
+  .secondary-image-one {
+    display: none;
+  }
+
+  .secondary-image-two {
+    display: none;
+  }
+
+  header .content h1 {
+    width: 593.4px;
+    height: 322px;
+  }
+
+  main .production .production-block .info {
+    width: auto;
+  }
+
+  header .content .image {
+    width: 438.41px;
+    height: 442px;
+  }
+
+  .form {
+    width: 586.89px;
+    height: 809px;
+    margin-right: 57px;
+  }
+
+  .input {
+    width: 472.16px;
+    margin: 30px;
+    height: 68.63px;
+  }
+
+  main .form-block .form button {
+    width: 423.39px;
+    height: 103px;
+  }
+
+  footer .container ul {
+    margin-right: 45px;
+  }
+
+  footer .container ul li {
+    height: 55px;
+    font-size: 20px;
+  }
+}
+
+/*конец*/
+header nav {
+  height: 147px;
+  background: linear-gradient(180deg, rgba(143, 89, 68, 0.83) 0%, rgba(86, 64, 51, 0.9) 68.23%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav .gamburger {
+  width: 75px;
+  height: 67px;
+  background-image: url('../img/more\ 1.png');
+  background-size: cover;
+  margin-right: 50px;
+}
+
+/*настройка логотипа*/
+header nav .logo {
+  width: 505px;
+  height: 131px;
+  background: url('../img/loho.png');
+  background-size: cover;
+  padding-left: 33px;
+  padding-top: 16px;
+}
+
+/*уберем стиль списка*/
+header .menu ul {
+  list-style: none;
+  display: flex;
+}
+
+/*настройка элементов списка*/
+header .menu ul li {
+  font-size: 26px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 56px;
+  line-height: 38px;
+  letter-spacing: 0.135em;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration-line: underline;
+}
+
+/*применим настройки позиционирования*/
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 197px;
+}
+
+/*применим стили для заголовка 1 уровня*/
+header .content h1 {
+  font-size: 55px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0.105em;
+  color: #FFFFFF;
+
+}
+
+/*настроим размеры изображения*/
+header .content .image {
+
+  background-image: url('../img/image\ 2.png');
+  background-size: cover;
+}
+
+/*отступы блока*/
+main .production {
+  margin-top: 50px;
+}
+
+/*настройка заголовка 2 уровня*/
+main .production h2 {
+  font-size: 48px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  margin-bottom: 142px;
+}
+
+/*отступы*/
+main .production .production-block-second {
+  margin-top: 157px;
+  padding-bottom: 140px;
+}
+
+/*отступы*/
+main .production .production-block {
+  display: flex;
+  margin-left: 118px;
+  margin-right: 156px;
+}
+
+/*фото 1*/
+main .production .production-block .image-main-one {
+  width: 664.33px;
+  height: 632px;
+  background-image: url("../img/Rectangle\ 249.png");
+  background-size: cover;
+  margin-right: 60px;
+}
+
+/*фото 1*/
+main .production .production-block .secondary-image-one {
+  width: 363px;
+  height: 632px;
+  background-image: url("../img/image\ 3.png");
+  background-size: cover;
+  margin-left: 82px;
+}
+
+/*фото 2*/
+main .production .production-block .image-main-two {
+  width: 664.33px;
+  height: 632px;
+  background-image: url("../img/image\ 4.png");
+  background-size: cover;
+  margin-right: 60px;
+}
+
+/*фото 2*/
+main .production .production-block .secondary-image-two {
+  width: 363px;
+  height: 632px;
+  background-image: url("../img/Rectangle\ 249\ \(1\).png");
+  background-size: cover;
+  margin-left: 82px;
+}
+
+/*размеры блока информации*/
+main .production .production-block .info {
+  height: 123.12px;
+}
+
+/*текст*/
+main .production .production-block .info .title {
+  font-size: 24px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  color: #82460F;
+}
+
+/*текст*/
+main .production .production-block .info .category {
+  font-size: 24px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  color: #6E7491;
+}
+
+/*текст*/
+main .production .production-block .content {
+  width: 477px;
+  height: 518px;
+  font-size: 24px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*настройка блока о компании*/
+main .about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 902px;
+  background: rgba(233, 233, 233, 0.59);
+}
+
+/*заголовок 2 уровня*/
+main .about h2 {
+  font-size: 48px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  margin-top: 22px;
+}
+
+/*текст*/
+main .about .content {
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+/*текст*/
+main .about .content .title {
+  margin-left: 45px;
+  margin-bottom: 37px;
+}
+
+/*линия*/
+main .about .content .title .line {
+  margin-right: 36px;
+  width: 63px;
+  height: 18px;
+  background: #0A0403;
+  border: 1px solid #130A04;
+  border-radius: 15px;
+}
+
+/*текст*/
+main .about .content .title p {
+  font-size: 35px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px;
+  color: #160D07;
+}
+
+/*текст*/
+main .about .content .text {
+  /* height: 271px; */
+  font-size: 40px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: center;
+  color: #000000;
+}
+
+/*блок формы*/
+main .form-block {
+  height: 1050px;
+  background-image: url('../img/Rectangle\ 249\ \(2\).png');
+  align-items: center;
+}
+
+/*текст*/
+main .form-block .text {
+  margin-left: 79px;
+  width: 758px;
+  height: 243px;
+  font-size: 48px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-right: 123px;
+}
+
+/*форма*/
+main .form-block .form {
+
+  background: #826254;
+  border-radius: 77px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*заголовок 3 уровня*/
+main .form-block .form h3 {
+  font-size: 48px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 41px;
+  margin-bottom: 71px;
+}
+
+/*поле ввода*/
+main .form-block .form .input {
+
+  background: #D9D9D9;
+  border-radius: 89px;
+  margin-bottom: 41px;
+}
+
+/*текст поля ввода*/
+main .form-block .form .input .placeholder {
+  margin-left: 23px;
+  font-size: 38px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  color: #767676;
+}
+
+/*кнопка*/
+main .form-block .form button {
+  margin-top: 74px;
+  margin-bottom: 100px;
+
+  background: #72534A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+/*текст кнопки*/
+main .form-block .form button p {
+  font-size: 48px;
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*подвал*/
+footer {
+  border-top: 1px solid #ccc;
+  clear: both;
+  height: 378px;
+  background: linear-gradient(180deg, rgba(143, 89, 68, 0.83) 0%, rgba(86, 64, 51, 0.9) 68.23%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/*позиционирование элементов*/
+footer .container {
+  display: flex;
+  align-items: center;
+}
+
+footer .container ul {
+  list-style: none;
+}
+
+/*элемент списка*/
+footer .container ul li {
+  font-family: 'Zen Old Mincho';
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+
+/*изменение цвета первого элемента*/
+footer .container ul li:nth-child(1) {
+  color: #F7A52E;
+}
+
+/*соц.кнопки*/
+footer .container .social-links {
+  align-items: center;
+  margin-top: 270px;
+}
+
+/*соц.кнопка*/
+footer .container .social-links .social {
+  width: 99.74px;
+  height: 50px;
+  padding: 10px;
+  background-size: cover;
+}
+
+/*фото кнопки*/
+footer .container .social-links .facebook {
+  background-image: url('../img/Frame\ 39.png');
+}
+
+/*фото кнопки*/
+footer .container .social-links .insta {
+  background-image: url('../img/Frame\ 40.png');
+}
+
+/*фото кнопки*/
+footer .container .social-links .play {
+  background-image: url('../img/Frame\ 41.png');
+}
